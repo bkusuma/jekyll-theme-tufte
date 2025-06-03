@@ -9,6 +9,7 @@ description: A Jekyll theme based on tufte-css
 show_author: true
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+theme: jekyll-theme-tufte
 highlighter: rouge
 # permalink: /blog/:categories/:year/:month/:day/:title.html
 permalink: /blog/:categories/:slug
@@ -17,3 +18,4 @@ excerpt_separator: <!--more-->
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 plugins:
   - jekyll-feed
+  - jekyll-theme-tufte
